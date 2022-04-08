@@ -1,0 +1,18 @@
+{
+  "name": "weather-back",
+  "version": "1.0.0",
+  "description": "the backend api for the weather app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Houssem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
